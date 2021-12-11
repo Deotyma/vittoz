@@ -1,0 +1,9 @@
+{
+  "name": "Vittoz Method Application",
+  "short_name": "Equi",
+  "description": "Relaxation and meditation application with method Vittoz",
+  "theme_color": "#4aa597",
+  "background_color": "#26778e",
+  "display": "standalone",
+  "orientation": "portrait"
+}
