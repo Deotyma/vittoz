@@ -1,13 +1,19 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link> |
-      <router-link to="/tasks">Tasks</router-link>
-    </div>
+    <NavBar />
     <router-view />
   </div>
 </template>
+
+<script>
+import NavBar from "./components/NavBar.vue";
+
+export default {
+  components: {
+    NavBar,
+  },
+};
+</script>
 
 <style>
 #app {
@@ -21,7 +27,7 @@
     rgba(157, 217, 143, 1) 0%,
     rgba(74, 165, 151, 1) 100%
   );
-  height: 100vh;
+  min-height: 100vh;
   width: 100vw;
 }
 
