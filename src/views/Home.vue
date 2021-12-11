@@ -24,10 +24,20 @@ img {
   justify-content: center;
   height: 80vh;
   width: auto;
+  animation: image-rotate 3s linear infinite;
 }
 
 a {
   font-weight: bold;
   color: #2c3e50;
+}
+
+@keyframes image-rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 </style>
