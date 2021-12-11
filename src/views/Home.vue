@@ -1,6 +1,7 @@
 <template>
   <div class="home">
     <img alt="Vue logo" src="../assets/equi__2.svg" />
+    <h2 class="title">EQUI</h2>
     <router-link to="/about"
       >Next <b-icon-arrow-right></b-icon-arrow-right
     ></router-link>
@@ -18,13 +19,19 @@ export default {
   display: flex;
   flex-direction: column;
 }
+.title {
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+  padding-top: 1rem;
+}
 
 img {
   display: flex;
   justify-content: center;
-  height: 80vh;
+  height: 60vh;
   width: auto;
-  animation: image-rotate 3s linear infinite;
+  animation: image-rotate 5s linear infinite;
 }
 
 a {
