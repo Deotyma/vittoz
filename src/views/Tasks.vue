@@ -28,7 +28,7 @@
       >
         <b-card-text> It is a decided act, framed and fully felt. </b-card-text>
 
-        <b-button class="btn-blue" to="/will">Go to exercise</b-button>
+        <b-button class="btn-blue" to="/walk">Go to exercise</b-button>
       </b-card>
       <b-card
         title="A Vittoz relaxation"
@@ -43,7 +43,7 @@
           Relaxation allows you to release the haunting thoughts and feel good.
         </b-card-text>
 
-        <b-button class="btn-blue" to="/relax">Go to exercise</b-button>
+        <b-button class="btn-blue" to="/walk">Go to exercise</b-button>
       </b-card>
     </b-row>
   </b-container>

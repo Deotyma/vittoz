@@ -30,6 +30,18 @@
         What doctor Vittoz calls the reeducation of brain control.
       </p>
       <p>Now you can start your first exercises.</p>
+
+      <figure>
+        <figcaption></figcaption>
+        <audio controls src="../assets/audio/vittoz1.mp3">
+          Your browser does not support the
+          <code>audio</code> element.
+        </audio>
+      </figure>
+
+      <router-link to="/tasks"
+        >Next <b-icon-arrow-right></b-icon-arrow-right
+      ></router-link>
     </b-container>
   </div>
 </template>
